@@ -14,7 +14,7 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #000000;
 }
 
 a:hover {
@@ -22,7 +22,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #000000 !important;
 }
 
 h1,
@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family:'Gothic A1', sans-serif;
 }
 
 .page-section {
@@ -60,12 +60,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #000000;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #000000;
   text-shadow: none;
 }
 
@@ -107,7 +107,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: #F3DCD4;
 }
 
 #mainNav .navbar-toggler {
@@ -117,8 +117,8 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  background-color: ##000000;
+  font-family: 'Gothic A1', sans-serif;
 }
 
 #mainNav .navbar-brand {
@@ -136,7 +136,7 @@ img::-moz-selection {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: #000000;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Gothic A1', sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -439,7 +439,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #000000;
 }
 
 .timeline > li .timeline-image h4 {
@@ -610,32 +610,32 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #000000;
   box-shadow: none;
 }
 
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Gothic A1', sans-serif;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Gothic A1', sans-serif;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Gothic A1', sans-serif;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Gothic A1', sans-serif;
 }
 
 .footer {
@@ -647,7 +647,7 @@ section#contact :-ms-input-placeholder {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Gothic A1', sans-serif;
 }
 
 .footer ul.quicklinks {
@@ -655,7 +655,7 @@ section#contact :-ms-input-placeholder {
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Gothic A1', sans-serif;
 }
 
 ul.social-buttons {
@@ -676,5 +676,407 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #000000;
+}
+
+/* Design evidence collum
+------------------------- */
+
+blockquote {
+  font-style: italic;
+  color: #482f87;
+}
+
+/* Featurettes End
+------------------------- */
+
+/* Photography Portfolio
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+    .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Featurettes End
+------------------------- */
+
+/* About Me */
+.bg-resume {
+  background-color: #F3DCD4;
+}
+
+.profile {
+    margin-bottom: 25px;
+}
+.profile .jobster-user-info {
+    display: inline-block;
+    width: 100%;
+}
+.profile .jobster-user-info .profile-avatar {
+    position: relative;
+    height: 115px;
+    width: 115px;
+    border-radius: 100%;
+    display: inline-block;
+}
+.profile .jobster-user-info .profile-avatar img {
+    border-radius: 100%;
+}
+.profile .jobster-user-info .profile-avatar i {
+    font-size: 16px;
+    color: #F3DCD4;
+    position: absolute;
+    background: #ffffff;
+    border-radius: 100%;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    bottom: 20px;
+    right: -5px;
+}
+
+.about-candidate {
+    padding: 25px 0px;
+}
+.about-candidate .candidate-info {
+    margin-bottom: 20px;
+}
+
+.resume-experience {
+    padding-left: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+    padding-right: 50px;
+    background: #f6f6f6;
+}
+.resume-experience:before {
+    position: absolute;
+    left: -40%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #f6f6f6;
+    content: "";
+    z-index: -1;
+    top: 0;
+}
+.resume-experience .jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle {
+    border-color: #f6f6f6;
+}
+
+.user-dashboard-info-box .select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-weight: bold;
+    color: #626262;
+}
+
+@media (max-width: 1199px) {
+    .secondary-menu ul li a {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .resume-experience {
+        padding-left: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 15px;
+    }
+    .resume-experience:before {
+        content: none;
+    }
+    .secondary-menu ul li {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 575px) {
+    .secondary-menu ul li a {
+        padding: 4px 8px;
+    }
+}
+
+/*****************************
+    Progress Bar
+*****************************/
+.progress {
+    position: relative;
+    overflow: inherit;
+    height: 3px;
+    margin: 40px 0px 15px;
+    width: 100%;
+    display: inline-block;
+}
+.progress .progress-bar {
+    height: 3px;
+    background: #21c87a;
+}
+.progress .progress-bar-title {
+    position: absolute;
+    left: 0;
+    top: -20px;
+    color: #212529;
+    font-size: 14px;
+    font-weight: 600;
+}
+.progress .progress-bar-number {
+    position: absolute;
+    right: 0;
+    color: #646f79;
+    top: -20px;
+}
+
+
+/* Jobster Candidate */
+.jobster-candidate-timeline {
+    position: relative;
+}
+.jobster-candidate-timeline:before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    width: 2px;
+    top: 5px;
+    bottom: 5px;
+    height: calc(100% - 5px);
+    background-color: #eeeeee;
+}
+
+.jobster-candidate-timeline .jobster-timeline-item {
+    display: table;
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle {
+    border-radius: 50%;
+    border: 12px solid white;
+    z-index: 1;
+    top: 5px;
+    left: 9px;
+    position: absolute;
+}
+.jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle:before {
+    content: "";
+    position: absolute;
+    left: 12px;
+    width: 20px;
+    top: -1px;
+    bottom: 5px;
+    height: 2px;
+    background-color: #eeeeee;
+}
+.jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle > i {
+    font-size: 15px;
+    top: -8px;
+    left: -7px;
+    position: absolute;
+    color: #F3DCD4;
+}
+
+.jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-info {
+    display: table-cell;
+    vertical-align: top;
+    padding: 5px 0 0 70px;
+}
+.jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-info h6 {
+    color: #F3DCD4;
+    margin: 5px 0 0px;
+}
+.jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-info span {
+    color: #212529;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.jobster-candidate-timeline span.jobster-timeline-time {
+    color: #646f79 !important;
+}
+
+.jobster-candidate-timeline .jobster-timeline-icon {
+    border: 2px solid #eeeeee;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    line-height: 42px;
+    text-align: center;
+    background: #ffffff;
+    position: relative;
+    margin-bottom: 20px;
+}
+.jobster-candidate-timeline .jobster-timeline-icon i {
+    font-size: 16px;
+    color: #212529;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 16px;
+}
+
+/* About me End */
+
+/* Design Evidence
+------------------------- */
+
+.featured-background {
+  background-color: #F3DCD4;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/*
+ * Blog name and description
+ */
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* Design Evidence End
+------------------------- */
+
+/* Photography Portfolio
+------------------------- */
+
+body {
+  font-family: sans-serif;
+   margin: 0;
+   background: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
+  margin-bottom:60px;
+}
+
+h4{
+  text-align:center;
+  line-height:80px;
+  font-weight:normal;
+
+}
+
+.masonry { /* Masonry container */
+    -webkit-column-count: 4;
+  -moz-column-count:4;
+  column-count: 4;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+   margin: 1.5em;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 1em;
+    margin: 0 0 1.5em;
+    width: 100%;
+  -webkit-transition:1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;
+}
+.item img{max-width:100%;}
+
+@media only screen and (max-width: 320px) {
+    .masonry {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px){
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+    .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+@media only screen and (min-width: 1201px) {
+    .masonry {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
 }
