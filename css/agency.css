@@ -25,8 +25,13 @@ a:hover {
   color: #000000 !important;
 }
 
-h1,
-h2,
+h1 {
+  font-family: 'Zilla Slab Highlight', cursive;
+  color: #F2D4D1;
+  }
+h2 {
+font-family: 'Zilla Slab', serif;
+}
 h3,
 h4,
 h5,
@@ -177,6 +182,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 600px;
 }
 
 header.masthead .intro-text {
@@ -185,11 +191,11 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
+  font-size: 25px;
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Zilla Slab Highlight', cursive;
-  color: #F9F0E7;
+  color: #F2D4D1;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -210,14 +216,14 @@ header.masthead .intro-text .intro-heading {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Zilla Slab Highlight', cursive;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Zilla Slab Highlight', cursive;
   }
 }
 
@@ -721,7 +727,7 @@ blockquote {
 
 /* About Me */
 .bg-resume {
-  background-color: #F3DCD4;
+  background-color: #F2D4D1;
 }
 
 .profile {
@@ -769,7 +775,7 @@ blockquote {
     padding-bottom: 60px;
     position: relative;
     padding-right: 50px;
-    background: #f6f6f6;
+    background: #989BA4;
 }
 .resume-experience:before {
     position: absolute;
@@ -938,61 +944,26 @@ blockquote {
 
 /* About me End */
 
-/* Design Evidence
+
+/* Full Width Image - Design Evidence
 ------------------------- */
 
-.featured-background {
-  background-color: #F3DCD4;
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-.display-4 {
-  font-size: 2.5rem;
-}
-@media (min-width: 768px) {
-  .display-4 {
-    font-size: 3rem;
-  }
-}
+/* Full Width Image End
+------------------------- */
 
-.card-img-right {
-  height: 100%;
-  border-radius: 0 3px 3px 0;
+/* Design Evidence Text
+------------------------- */
+blockquote {
+  font-style: italic;
+  color: #482f87;
 }
-
-.flex-auto {
-  -ms-flex: 0 0 auto;
-  -webkit-box-flex: 0;
-  flex: 0 0 auto;
-}
-
-.h-250 { height: 250px; }
-@media (min-width: 768px) {
-  .h-md-250 { height: 250px; }
-}
-
-.border-top { border-top: 1px solid #e5e5e5; }
-.border-bottom { border-bottom: 1px solid #e5e5e5; }
-
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
-
-/*
- * Blog name and description
- */
-.blog-title {
-  margin-bottom: 0;
-  font-size: 2rem;
-  font-weight: 400;
-}
-.blog-description {
-  font-size: 1.1rem;
-  color: #999;
-}
-
-@media (min-width: 40em) {
-  .blog-title {
-    font-size: 3.5rem;
-  }
-}
-
-/* Design Evidence End
+/* Design Evidence Text End
 ------------------------- */
