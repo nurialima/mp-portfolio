@@ -122,12 +122,12 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #F9F0E7;
+  color: #000000;
   font-family: 'Zilla Slab', serif;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #989BA4;
+  color: #F9F0E7;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -135,12 +135,12 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: #F9F0E7;
+  color: #000000;
   font-family: 'Zilla Slab', serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #989BA4;
+  color: #F9F0E7;
 }
 
 @media (min-width: 992px) {
@@ -149,7 +149,7 @@ img::-moz-selection {
     padding-bottom: 3px;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: #F2D4D1;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -188,7 +188,7 @@ header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
   color: #F9F0E7;
 }
 
@@ -197,7 +197,7 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
   Color: #F9F0E7;
 }
 
